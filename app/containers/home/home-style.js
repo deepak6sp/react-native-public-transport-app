@@ -1,13 +1,35 @@
 import { StyleSheet } from 'react-native';
+import Variables from '../../constants';
+
 
 export default HomeStyles = StyleSheet.create({
   list: {
-    borderBottomColor: '#dddddd',
-    borderBottomWidth: 1
+    borderBottomColor: Variables.greyLight,
+    borderBottomWidth: 1,
+    flexDirection: 'row',
+    height: 50
   },
   listText: {
-    backgroundColor: '#ecf0f1',
-    padding: 20,
-    color: '#000000'
+    backgroundColor: Variables.primaryColor,
+    color: Variables.secondaryColor,
+    flex: 1,
+    lineHeight: 50,
+    paddingLeft: 20,
+    fontSize: 16,
+  },
+  icons: {
+    backgroundColor: Variables.primaryColor,
+    fontSize: 20,
+    flex: 1,
+    lineHeight: 50,
+    textAlign: 'right',
+    paddingRight: 20,
+    color: Variables.secondaryColor
+  },
+  headerStyle: {
+    backgroundColor: Variables.secondaryColor
+  },
+  headerTitleStyle: {
+    color: Variables.white
   }
 });

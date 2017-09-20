@@ -1,10 +1,9 @@
 import React from 'react';
-import Home from './containers/home';
+import {StackNavigator} from 'react-navigation';
 
-export default class Main extends React.Component {
-  render() {
-    return (
-      <Home />
-    );
-  }
-}
+import HomeScreen from './containers/home';
+
+export default Main =  StackNavigator({
+  Home: { screen: HomeScreen },
+  Profile: { screen: HomeScreen },
+});

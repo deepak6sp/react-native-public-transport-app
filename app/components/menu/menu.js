@@ -6,7 +6,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <View style={MenuStyles.container}>
-        <Text style={MenuStyles.text}>Time Table</Text>
+        <Text style={MenuStyles.text}>Live Time Table</Text>
       </View>
     );
   }
