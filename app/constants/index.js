@@ -1,6 +1,6 @@
 export default variables = {
-  primaryColor : '#ecf0f1',
-  secondaryColor : '#2c3e50',
+  primaryColor : '#FE3824',
+  secondaryColor : '#C41908',
   greyLight : '#dddddd',
   white : '#ffffff'
 }

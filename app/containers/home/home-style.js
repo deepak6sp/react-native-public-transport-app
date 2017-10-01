@@ -3,33 +3,44 @@ import Variables from '../../constants';
 
 
 export default HomeStyles = StyleSheet.create({
-  list: {
-    borderBottomColor: Variables.greyLight,
-    borderBottomWidth: 1,
-    flexDirection: 'row',
-    height: 50
-  },
-  listText: {
-    backgroundColor: Variables.primaryColor,
-    color: Variables.secondaryColor,
-    flex: 1,
-    lineHeight: 50,
-    paddingLeft: 20,
-    fontSize: 16,
-  },
-  icons: {
-    backgroundColor: Variables.primaryColor,
-    fontSize: 20,
-    flex: 1,
-    lineHeight: 50,
-    textAlign: 'right',
-    paddingRight: 20,
-    color: Variables.secondaryColor
-  },
   headerStyle: {
-    backgroundColor: Variables.secondaryColor
+    backgroundColor: Variables.primaryColor,
+    height: 70
   },
   headerTitleStyle: {
     color: Variables.white
+  },
+  select_location_wrapper: {
+    backgroundColor: Variables.primaryColor,
+    height: 150
+  },
+  input: {
+    height: 50,
+    margin: 10,
+    padding: 5,
+    backgroundColor: Variables.secondaryColor,
+    borderRadius: 5,
+    color: Variables.white
+  },
+  select_transport_wrapper: {
+  },
+  transportSelectionListText: {
+    borderWidth: 1,
+    borderColor: Variables.primaryColor,
+    color: Variables.primaryColor,
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1,
+    fontSize: 16,
+    textAlign: 'center'
+  },
+  iconsList: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    flex: 1,
+    height: 50
+  },
+  icons: {
+    fontSize: 20
   }
 });
